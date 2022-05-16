@@ -201,23 +201,6 @@ img{
         ;  
     }
 
-    .imagen:hover{
-        transform:scale(2)
-    }
-
-    .imagen{
-        transition: all 2s;
-    }
-
-    #fernando:hover{
-        transform: scale(2);
-    }
-
-    #fernando{
-        transition: all 2s;
-    }
-
-   
 
 
 }

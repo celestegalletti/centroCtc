@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-header{
+/*header{
     background-color: rgb(153, 150, 150);
     padding: 10px;
     margin-top: 0;  
@@ -18,7 +18,7 @@ header{
 
 ul li {
     list-style-type: none;
-}
+}*/
 
 .primero{
     color: rgb(5, 5, 5);
@@ -29,7 +29,7 @@ ul li {
     color: rgb(78, 74, 74);
 }
 
-nav ul li{
+/*nav ul li{
     display: inline-block;
 }
 
@@ -38,14 +38,14 @@ nav ul li a{
     color: rgb(33, 32, 32);
     font-size: 20px;
     font-family: 'Merriweather', serif;
-}
+}*/
 
 footer{
     background-color:rgb(127, 121, 121) ;
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
-    height: 5cm;
+    height: 10cm;
     
 }
 
@@ -76,7 +76,7 @@ main{
     height: 300px;
 }
 
-.header{
+/*.header{
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -94,7 +94,7 @@ ul{
 
 ul li a {
     margin: 1cm;
-}
+}*/
 
 .footer{
     display: flex;
@@ -137,13 +137,13 @@ footer{
     
 }
 
-img{
+/*img{
     width: 400px;
     height: 300px;
     
-}
+}*/
 
-.imagen1{
+/*.imagen1{
     grid-area: imagen1;
     display: grid;
     justify-items: center;
@@ -174,8 +174,21 @@ img{
     "imagen2"
     "imagen3"
     ;
+}*/
+
+.gris{
+    background-color: rgb(153, 150, 150);
+    font-family: 'Merriweather', serif;
 }
 
+.logo{
+    width: 100px;
+    height: 80px;
+}
+.imagen{
+    width: 300px;
+    height: 500px;
+}
 
 @media (min-width:500px){ 
     .cuerpo{
@@ -201,7 +214,7 @@ img{
         ;  
     }
 
-    .imagen:hover{
+    /*.imagen:hover{
         transform:scale(2)
     }
 
@@ -215,7 +228,7 @@ img{
 
     #fernando{
         transition: all 2s;
-    }
+    }*/
 
 
 

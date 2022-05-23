@@ -42,10 +42,10 @@ nav ul li a{
 
 footer{
     background-color:rgb(127, 121, 121) ;
-    padding: 10px;
+    padding: 8px;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
-    height: 10cm;
+    height: auto;
     
 }
 
@@ -61,19 +61,19 @@ main{
     font-family: 'Quicksand', sans-serif;
 }
 
-#profesionales{
+/*#profesionales{
     padding: 20px;
     margin: 6px 950px 0px 6px;
     border: 5px solid black;
-}
+}*/
 
 #profesionales{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #fernando{
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 150px;
 }
 
 /*.header{
@@ -186,9 +186,14 @@ footer{
     height: 80px;
 }
 .imagen{
-    width: 300px;
-    height: 500px;
+    width: auto;
+    height: auto;
 }
+.iconos{
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+}
+
 
 @media (min-width:500px){ 
     .cuerpo{
@@ -214,6 +219,24 @@ footer{
         ;  
     }
 
+    .imagen{
+        width: 300px;
+        height: 500px;
+    }
+
+    .iconos:hover{
+        color: white;
+    }
+
+    #fernando{
+        width: 250px;
+        height: 220px;
+    }
+
+    a:hover {
+        background-color: rgb(108, 105, 105);
+    }
+
     /*.imagen:hover{
         transform:scale(2)
     }
@@ -230,8 +253,18 @@ footer{
         transition: all 2s;
     }*/
 
+}
 
-
+@media (min-width:900px){
+    .cuerpo{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 7fr 1fr;
+        grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+        ;  
+    }
 }
 
 

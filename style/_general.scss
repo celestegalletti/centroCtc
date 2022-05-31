@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.primero{
+    color: rgb(5, 5, 5);
+    margin: 10px;
+}
+
+#segundo{
+    color: rgb(78, 74, 74);
+}
+
+
+footer{
+    background-color:rgb(127, 121, 121) ;
+    padding: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    height: auto;
+    
+}
+
+body{
+    background-color: rgb(153, 150, 150);
+}
+
+main{
+    font-family: 'EB Garamond', serif;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.titulo{
+    display: flex;
+    margin: auto;
+    
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  0,9fr 6fr 0,9fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;  
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+footer{
+    grid-area: footer;
+    margin-bottom: 0;
+    
+}
+
+.gris{
+    background-color: rgb(153, 150, 150);
+    font-family: 'Merriweather', serif;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+}
+.imagen{
+    width: auto;
+    height: auto;
+}
+.iconos{
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+}
+
+

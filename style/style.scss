@@ -1,0 +1,67 @@
+
+@import "general";
+@import "servicios";
+@import "profesionales";
+@import "index";
+@import "contacto";
+@import "atencion";
+
+
+@media (min-width:500px){ 
+    .cuerpo{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer"
+        ; 
+    }
+
+
+
+}
+@media (min-width:700px){
+    .cuerpo{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 7fr 1fr;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer"
+        ;  
+    }
+
+    .imagen{
+        width: 300px;
+        height: 500px;
+    }
+
+    .iconos:hover{
+        color: white;
+    }
+
+    #fernando{
+        width: 250px;
+        height: 220px;
+    }
+
+    a:hover {
+        background-color: rgb(108, 105, 105);
+    }
+
+}
+
+
+@media (min-width:900px){
+    .cuerpo{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 7fr 1fr;
+        grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+        ;  
+    }
+}
+
+

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.primero {
+  color: #050505;
+  margin: 10px;
+}
+
+#segundo {
+  color: #4e4a4a;
+}
+
+footer {
+  background-color: #7f7979;
+  padding: 8px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  height: auto;
+}
+
+body {
+  background-color: #999696;
+}
+
+main {
+  font-family: 'EB Garamond', serif;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0px;
+}
+
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.cuerpo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 0,9fr 6fr 0,9fr;
+      grid-template-rows: 0,9fr 6fr 0,9fr;
+      grid-template-areas: "header" "main" "footer";
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  margin-bottom: 0;
+}
+
+.gris {
+  background-color: #999696;
+  font-family: 'Merriweather', serif;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+}
+
+.imagen {
+  width: auto;
+  height: auto;
+}
+
+.iconos {
+  color: #0b0b0b;
+  font-size: 20px;
+}
+
+#servicios {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#profesionales {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fernando {
+  width: 100px;
+  height: 150px;
+}
+
+@media (min-width: 500px) {
+  .cuerpo {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "header header" "main main" "footer footer";
+  }
+}
+
+@media (min-width: 700px) {
+  .cuerpo {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 0.3fr 7fr 1fr;
+        grid-template-rows: 0.3fr 7fr 1fr;
+        grid-template-areas: "header header header" "main main main" "footer footer footer";
+  }
+  .imagen {
+    width: 300px;
+    height: 500px;
+  }
+  .iconos:hover {
+    color: white;
+  }
+  #fernando {
+    width: 250px;
+    height: 220px;
+  }
+  a:hover {
+    background-color: #6c6969;
+  }
+}
+
+@media (min-width: 900px) {
+  .cuerpo {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 0.3fr 7fr 1fr;
+        grid-template-rows: 0.3fr 7fr 1fr;
+        grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+  }
+}
+/*# sourceMappingURL=style.css.map */

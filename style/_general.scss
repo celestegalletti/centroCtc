@@ -2,23 +2,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&family=Raleway:wght@100&family=Tiro+Devanagari+Sanskrit&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 
-
 .primero{
     color: rgb(5, 5, 5);
-    margin: 10px;
+    margin-top: 5px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+h1{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+h2{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+h3{
+    text-align: center;
 }
 
 #segundo{
     color: rgb(78, 74, 74);
+    text-align: center;
+    margin-top: 50px;
 }
-
 
 footer{
     background-color:rgb(127, 121, 121) ;
@@ -48,8 +69,11 @@ main{
 .titulo{
     display: flex;
     margin: auto;
-    
+    font-size: 25px;
+    color: rgb(14, 13, 13);
+    font-family: 'Tiro Devanagari Sanskrit', serif;
 }
+
 
 .cuerpo{
     display: grid;
@@ -81,19 +105,20 @@ footer{
 .gris{
     background-color: rgb(153, 150, 150);
     font-family: 'Merriweather', serif;
+    font-size: 20px;
 }
 
 .logo{
-    width: 100px;
-    height: 80px;
+    width: 130px;
+    height: 100px;
 }
 .imagen{
     width: auto;
     height: auto;
 }
 .iconos{
-    color: rgb(11, 11, 11);
-    font-size: 20px;
+    color: rgb(12, 11, 11);
+    font-size: 30px;
 }
 
 

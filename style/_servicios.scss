@@ -1,0 +1,50 @@
+@each $fotos in kinesiologia, kinesio, kine, psicologia, entrenamiento, alimentacion{
+    .#{$fotos}-fondo{
+        width: 500px;
+        height: 300px;
+        background-image: url('../img/#{$fotos}.jpg');
+        background-repeat: no-repeat;
+        border: solid black;
+        transition: width 2s;
+        &:hover{
+            width: 600px;
+        }
+    }
+    
+}
+
+
+.fotos{
+    display: grid;
+        grid-template-columns: 650px 650px;
+        grid-template-rows: 400px 400px 400px;
+        grid-template-areas: 
+        "kinesiologia kinesio"
+        "kine psicologia"
+        "entrenamiento alimentacion";
+        margin-left: 100px;
+        margin-top: 50px;
+}
+
+.kinesiologia-fondo{
+    grid-area: kinesiologia;
+}
+
+.kinesio-fondo{
+    grid-area: kinesio;
+}
+
+.kine-fondo{
+    grid-area: kine;
+}
+
+.psicologia-fondo{
+    grid-area: psicologia;
+}
+
+.entrenamiento-fondo{
+    grid-area: entrenamiento;
+}
+.alimentacion-fondo{
+    grid-area: alimentacion;
+}

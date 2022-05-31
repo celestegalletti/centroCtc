@@ -46,7 +46,7 @@ footer{
     padding: 8px;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
-    height: auto;
+    height: 250px;
     
 }
 
@@ -68,7 +68,7 @@ main{
 
 .titulo{
     display: flex;
-    margin: auto;
+    margin-top: 20px;
     font-size: 25px;
     color: rgb(14, 13, 13);
     font-family: 'Tiro Devanagari Sanskrit', serif;
@@ -116,9 +116,20 @@ footer{
     width: auto;
     height: auto;
 }
+.boton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-area: 
+    "iconos iconos";
+}
+
 .iconos{
     color: rgb(12, 11, 11);
     font-size: 30px;
+    grid-area: iconos;
+    margin-left: 10px;
+    margin-bottom: 0;
 }
 
 

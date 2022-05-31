@@ -49,7 +49,7 @@ footer {
   padding: 8px;
   font-family: 'Quicksand', sans-serif;
   font-size: 15px;
-  height: auto;
+  height: 250px;
 }
 
 body {
@@ -81,7 +81,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
+  margin-top: 20px;
   font-size: 25px;
   color: #0e0d0d;
   font-family: 'Tiro Devanagari Sanskrit', serif;
@@ -134,9 +134,154 @@ footer {
   height: auto;
 }
 
+.boton {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-area: "iconos iconos";
+}
+
 .iconos {
   color: #0c0b0b;
   font-size: 30px;
+  grid-area: iconos;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.kinesiologia-fondo {
+  width: 500px;
+  height: 300px;
+  background-image: url("../img/kinesiologia.jpg");
+  background-repeat: no-repeat;
+  border: solid black;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.kinesiologia-fondo:hover {
+  width: 600px;
+}
+
+.kinesio-fondo {
+  width: 500px;
+  height: 300px;
+  background-image: url("../img/kinesio.jpg");
+  background-repeat: no-repeat;
+  border: solid black;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.kinesio-fondo:hover {
+  width: 600px;
+}
+
+.kine-fondo {
+  width: 500px;
+  height: 300px;
+  background-image: url("../img/kine.jpg");
+  background-repeat: no-repeat;
+  border: solid black;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.kine-fondo:hover {
+  width: 600px;
+}
+
+.psicologia-fondo {
+  width: 500px;
+  height: 300px;
+  background-image: url("../img/psicologia.jpg");
+  background-repeat: no-repeat;
+  border: solid black;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.psicologia-fondo:hover {
+  width: 600px;
+}
+
+.entrenamiento-fondo {
+  width: 500px;
+  height: 300px;
+  background-image: url("../img/entrenamiento.jpg");
+  background-repeat: no-repeat;
+  border: solid black;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.entrenamiento-fondo:hover {
+  width: 600px;
+}
+
+.alimentacion-fondo {
+  width: 500px;
+  height: 300px;
+  background-image: url("../img/alimentacion.jpg");
+  background-repeat: no-repeat;
+  border: solid black;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.alimentacion-fondo:hover {
+  width: 600px;
+}
+
+.fotos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 650px 650px;
+      grid-template-columns: 650px 650px;
+  -ms-grid-rows: 400px 400px 400px;
+      grid-template-rows: 400px 400px 400px;
+      grid-template-areas: "kinesiologia kinesio" "kine psicologia" "entrenamiento alimentacion";
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.kinesiologia-fondo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: kinesiologia;
+}
+
+.kinesio-fondo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: kinesio;
+}
+
+.kine-fondo {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: kine;
+}
+
+.psicologia-fondo {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: psicologia;
+}
+
+.entrenamiento-fondo {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: entrenamiento;
+}
+
+.alimentacion-fondo {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: alimentacion;
 }
 
 #fernando {
@@ -151,7 +296,7 @@ figcaption {
 
 .contacto {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 80px;
 }
 
 #atencion {
@@ -201,8 +346,8 @@ figcaption {
   .cuerpo {
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    -ms-grid-rows: 0.3fr 2fr 0,5fr;
-        grid-template-rows: 0.3fr 2fr 0,5fr;
+    -ms-grid-rows: 0.3fr 2fr 0,3fr;
+        grid-template-rows: 0.3fr 2fr 0,3fr;
         grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   }
 }

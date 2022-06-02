@@ -89,9 +89,10 @@
         height: 220px;
     }
 
-    a:hover {
-        background-color: rgb(108, 105, 105);
+    a:hover{
+        background-color: rgb(110, 235, 235);
     }
+
 
     @each $fotos in kinesiologia, kinesio, kine, psicologia, entrenamiento, alimentacion{
         .#{$fotos}-fondo{

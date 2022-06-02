@@ -23,16 +23,19 @@ h1{
     margin-left: 15px;
     margin-bottom: 5px;
     font-size: 40px;
+    color: rgb(45, 166, 160);
 }
 h2{
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 40px;
+    color: rgb(45, 166, 160) ;
 }
 
 h3{
     text-align: center;
+    color:rgb(45, 166, 160) ;
 }
 
 #segundo{
@@ -42,7 +45,7 @@ h3{
 }
 
 footer{
-    background-color:rgb(127, 121, 121) ;
+    background-color:rgb(45, 166, 160);
     padding: 8px;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
@@ -51,7 +54,7 @@ footer{
 }
 
 body{
-    background-color: rgb(153, 150, 150);
+    background-color: rgb(206, 241, 253);
 }
 
 main{
@@ -103,11 +106,10 @@ footer{
 }
 
 .gris{
-    background-color: rgb(153, 150, 150);
+    background-color:rgb(206, 241, 253);
     font-family: 'Merriweather', serif;
     font-size: 20px;
 }
-
 .logo{
     width: 130px;
     height: 100px;

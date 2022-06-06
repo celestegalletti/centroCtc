@@ -137,6 +137,19 @@
         grid-area: alimentacion;
     }
 
+    $botones:(
+    simbolo: aqua,
+    encabezado: rgb(109, 228, 212),
+);
+
+@each $efectos, $color in $botones {
+    .efecto-#{$efectos}{
+        &:hover{ 
+            background-color: $color;
+        } 
+    }
+    
+}
 }
 
 
@@ -150,6 +163,7 @@
         "footer footer footer footer"
         ;  
     }
+
 }
 
 @media (min-width: 1300px){
@@ -204,6 +218,7 @@
     .alimentacion-fondo{
         grid-area: alimentacion;
     }
+
 }
 
 

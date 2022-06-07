@@ -63,6 +63,11 @@
         grid-area: alimentacion;
     }
 
+    #fernando{
+        width: 250px;
+        height: 200px;
+    }
+
 }
 @media (min-width:700px){
     .cuerpo{
@@ -79,13 +84,6 @@
         width: 300px;
         height: 500px;
     }
-
-
-    #fernando{
-        width: 250px;
-        height: 200px;
-    }
-
 
     @each $fotos in kinesiologia, kinesio, kine, psicologia, entrenamiento, alimentacion{
         .#{$fotos}-fondo{

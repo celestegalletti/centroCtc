@@ -162,6 +162,11 @@ footer {
 }
 
 #fernando {
+  width: 250px;
+  height: 200px;
+}
+
+#fernando {
   margin-left: 15px;
 }
 
@@ -270,6 +275,10 @@ figcaption {
     -ms-grid-column: 1;
     grid-area: alimentacion;
   }
+  #fernando {
+    width: 250px;
+    height: 200px;
+  }
 }
 
 @media (min-width: 700px) {
@@ -283,10 +292,6 @@ figcaption {
   .imagen {
     width: 300px;
     height: 500px;
-  }
-  #fernando {
-    width: 250px;
-    height: 200px;
   }
   .kinesiologia-fondo {
     width: 500px;

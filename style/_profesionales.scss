@@ -6,13 +6,3 @@
 figcaption{
     margin-left: 15px;
 }
-
-@mixin sizes ($width, $height) {
-    width: $height;
-    height: $width;
-    
-}
-
-.picture{
-    @include sizes (500px,300px);
-}

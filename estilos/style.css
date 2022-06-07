@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&family=Raleway:wght@100&family=Tiro+Devanagari+Sanskrit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Quicksand:wght@300&family=Raleway:wght@100&family=Tai+Heritage+Pro&family=Tiro+Devanagari+Sanskrit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Charis+SIL&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Nunito:wght@200&family=Quicksand:wght@300&family=Raleway:wght@100&family=Tai+Heritage+Pro&family=Tiro+Devanagari+Sanskrit&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -61,7 +62,7 @@ body {
 }
 
 main {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .footer {
@@ -166,11 +167,6 @@ footer {
 
 figcaption {
   margin-left: 15px;
-}
-
-.picture {
-  width: 300px;
-  height: 500px;
 }
 
 .contacto {
@@ -290,7 +286,7 @@ figcaption {
   }
   #fernando {
     width: 250px;
-    height: 220px;
+    height: 200px;
   }
   .kinesiologia-fondo {
     width: 500px;
